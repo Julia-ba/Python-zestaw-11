@@ -1,6 +1,6 @@
 """
 Zadanie 11.1 z zestawu 11
-Testy znajduja sie w pliku test_singlelist.py
+Testy znajduja sie w pliku test_singlelist_11_1.py
 """
 
 class Node:
@@ -113,3 +113,4 @@ class SingleList:
         while node:
             yield node.data
             node = node.next
+
